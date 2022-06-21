@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<a href="#about me">About me</a>
-<a href="#projects">Projects</a>
-<a href="#contacts">Contacts</a>
-
 <body>
-    <h1>Portfolio Page</h1>
+
+    <nav>
+        <ul class="flexbox-menu">
+            <li class="flexbox-list"><a href="#about_me">About me</a></li>
+            <li class="flexbox-list"><a href="#projects">Projects</a></li>
+            <li class="flexbox-list"><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
     <menu>
     
-
     </menu>
-    <h2 id="about me"> About me</h2>
+
+    <h2 id="about_me"> About me</h2>
         <p>Hi, my name is Katalin. I am a front-end developer with desire of web developping.
         Check out my works on the web portfolio page.
         Remotely available by the form at the bottom.
@@ -28,29 +32,41 @@
         </p>
     
         <h2>My profile</h2>
-    <p>I have multinational and ngo background, lived abroad in the UK and France. These experiences make me able to find easy to work with people from different nationalities and background</p>
+    <p>I have multinational and NGO work background, lived abroad in the UK and France. These experiences make me able to find easy to work with people from different nationalities and cultural background</p>
     
     <h2>Skills</h2> 
 
-    <h2 id="projects">Projects</h2>
-    <p>Check out some of my work</p>
+        <img class= web_development_icons src="./pictures/html5_icon.png" alt="html5_icon">
+        <img class= web_development_icons src="./pictures/css3_icon.png" alt="css3_icon">
+        <img class= web_development_icons src="./pictures/js_icon.png" alt="javascript_icon">
+        <img class= web_development_icons src="./pictures/python_icon.png" alt="javascript_icon">
+        <img class= web_development_icons src="./pictures/wordpress_icon.png" alt="javascript_icon">
+        <img class= web_development_icons src="./pictures/react.icon.png" alt="javascript_icon">
 
-    
+    <h2 id="projects">Projects</h2>
+    <p>Check out my work:</p>
+
+    <img class=pictures_portfolio_work src="./pictures/foto.computer.jpg" alt="photo_computer">
+    <img class=pictures_portfolio_work src="./pictures/foto_coding.jpg" alt="photo_computer">
+    <img class=pictures_portfolio_work src="./pictures/foto_online_shopping.jpg" alt="photo_computer">
+    <img class=pictures_portfolio_work src="./pictures/foto_webshop.jpg" alt="photo_computer">
+
     <h2 id="contacts">Contact me</h2>
     <p>If you have any request or question, don't hesitate to use this form. </p>
 
-    <form action="https://formspree.io/f/mnqwlrqw" method="POST">    
-    <input type="text" name="Név" placeholder="Name">
-    <input type="email" name="Email" placeholder="Email">
-    <input type="text" name="Subject" placeholder="Subject">
-    <textarea name="Message" id="message" cols="40" rows="7" placeholder="Message"></textarea>
-    <input type="submit" value="Send message">
+        <form class="flexbox-form" action="https://formspree.io/f/mnqwlrqw" method="POST">    
+        <input class="flexbox-item" type="text" name="Név" placeholder="Name">
+        <input class="flexbox-item" type="email" name="Email" placeholder="Email">
+        <input class="flexbox-item" type="text" name="Subject" placeholder="Subject">
+        <textarea class="flexbox-item" name="Message" id="message" cols="40" rows="7" placeholder="Message"></textarea>
+        <input class="flexbox-item" type="submit" value="Send message">
     </form>
-</body>
 
-<footer>
-    <p>Home</p>
-    <p>Privacy</p>
-    <p> &copy; Copyright Katalin Csordas</p>  
-</footer>
+    <footer class="footer">
+        <p>Home</p>
+        <p>Privacy</p>
+        <p> &copy; Copyright Katalin Csordas</p>  
+    </footer>
+
+</body>
 </html>
