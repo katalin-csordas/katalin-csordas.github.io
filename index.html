@@ -15,26 +15,29 @@
 
   <body>
     <header>
-        <nav>
-        <ul class="header-menu">
-            <li class="header-menu-item"><a href="#about_me">About me</a></li>
-            <li class="header-menu-item"><a href="#projects">Projects</a></li>
-            <li class="header-menu-item"><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
+        <nav class="header-menu">
+          <h1 class="grid-item2">Bonjour!</h1>
+          <img class="grid-item3" src="./pictures/profile_photo.jpg" alt="Katalin's profile picture">
+          <ul class="header-menu-item-container">
+            <li class="header-menu-item" class="grid-item1"><a href="#about_me">About me</a></li>
+            <li class="header-menu-item" class="grid-item1"><a href="#projects">Projects</a></li>
+            <li class="header-menu-item" class="grid-item1"><a href="#contacts">Contacts</a></li>
+         </ul>  
+        </nav>
     </header>
   
     <main>
-      <div class="main-grid-container"> 
-      <h2 id="about_me"> About me</h2>
-        <p>Hi, my name is Katalin. I am a front-end developer with desire of web developping.
-        Check out my projects !
-        </p>
+        <div class="about-me-and-my-profile">
+          <h2 id="about_me"> About me</h2>
+          <p>Hi, my name is Katalin. I am a front-end developer with desire of web developping.
+          Check out my projects !
+          </p>
 
-      <h2>My profile</h2>
-        <p>I have multinational and NGO work background, lived abroad in the UK and France. These experiences make me able to find easy to work with people from different nationalities and cultural background</p> 
+          <h2 class="my-prpfile"> My profile</h2>
+          <p>I have multinational and NGO work background, lived abroad in the UK and France. These experiences make me able to find easy to work with people from different nationalities and cultural background</p> 
+        </div>
 
-      <h2>Skills</h2> 
+      <h2 class="skills">Skills</h2> 
         <div class="skills-flexbox-container">
          <img class= web_development_icons src="./pictures/html5_icon.png" alt="html5_icon">
          <img class= web_development_icons src="./pictures/css3_icon.png" alt="css3_icon">
@@ -65,15 +68,17 @@
         </ul>
       </div>
 
+      <div class="contact-me-container">
         <h2 id="contacts">Contact me</h2>
           <p>If you have any request or question, don't hesitate to use this form. </p>
-           <form class="flexbox-form" action="https://formspree.io/f/mnqwlrqw" method="POST">    
-            <input class="flexbox-item" type="text" name="Név" placeholder="Name">
-            <input class="flexbox-item" type="email" name="Email" placeholder="Email">
-            <input class="flexbox-item" type="text" name="Subject" placeholder="Subject">
-            <textarea class="flexbox-item" name="Message" id="message" cols="40" rows="7" placeholder="Message"></textarea>
-            <input class="flexbox-item" type="submit" value="Send message">
-           </form>
+        </div>
+        <form class="flexbox-form" action="https://formspree.io/f/mnqwlrqw" method="POST">    
+          <input class="flexbox-item" type="text" name="Név" placeholder="Name">
+          <input class="flexbox-item" type="email" name="Email" placeholder="Email">
+          <input class="flexbox-item" type="text" name="Subject" placeholder="Subject">
+          <textarea class="flexbox-item" name="Message" id="message" cols="40" rows="7" placeholder="Message"></textarea>
+          <input class="flexbox-item" type="submit" value="Send message">
+        </form>
       </main>
 
     <footer class="footer">
@@ -86,9 +91,9 @@
           <a target="_blank" href="https://www.linkedin.com/in/katalincsordas/"><i class="fa-brands fa-linkedin"></i></a>
         </li>
       </div>
-      <div class="contact-buttom">
-        <li>Privacy</li>
-        <li> &copy; Copyright Katalin Csordas</li> 
+      <div class="media-icons-buttom">
+        <!--<li>Privacy</li>-->
+        <li> &copy; Copyright 2022 Katalin Csordas</li> 
       </div>
       </ul>
     </footer>
