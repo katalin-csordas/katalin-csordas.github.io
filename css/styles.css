@@ -307,7 +307,6 @@ ul {
         margin-right: 2rem;
         box-shadow :5px 5px 10px rgb(5, 19, 46);
     }
-
     body {
         background-size: auto; 
 
@@ -359,8 +358,8 @@ ul {
         text-align: left;
     }
     .form-item {
-        align-self: flex-start;
-        width: 55rem;
+    align-self: flex-start;
+    width: 55rem;
     }  
 }
 
