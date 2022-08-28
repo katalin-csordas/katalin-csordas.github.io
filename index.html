@@ -13,94 +13,89 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Kata Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./pictures/favicon.ico.png">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
-    <header>
-        <nav class="header-menu-container">
-          <h1 class="grid-menu-item2">Welcome!</h1>
-          <img class="grid-menu-item3" src="./pictures/portfolio_picture_circle.png" alt="Katalin's profile picture">
-          <ul class="header-menu-item-container">
-            <li class="header-menu-item-list"><a href="#about_me">About me</a></li>
-            <li class="header-menu-item-list"><a href="#projects">Projects</a></li>
-            <li class="header-menu-item-list"><a href="#contacts">Contacts</a></li>
-         </ul>  
-        </nav>
+    
+    <header class="header-container">
+      <nav class="header-menu-pic-container">
+          <img class="header-profile-pic" src="./pictures/portfolio_picture_circle.png" alt="Katalin's profile picture">
+            <ul class="header-menu-text-box">
+              <li class="header-menu-text-item"><a href="#about_me">About me</a></li>
+              <li class="header-menu-text-item"><a href="#projects">Projects</a></li>
+              <li class="header-menu-text-item"><a href="#contacts">Contacts</a></li>
+          </ul>  
+         </nav>
+         <div class="welcome-item">Welcome!</div>
     </header>
-  
+
     <main>
-      <div class="about-me-and-my-profile">
+      <section class="about-me-and-my-profile">
         <h2 id="about_me">About me</h2>
           <p>Hi, my name is Katalin. I am a front-end developer. Check out my projects !
           </p>
-        
         <h2 class="my-prpfile">My profile</h2>
-          <p>I have multinational and NGO work background, lived abroad in the UK and France. These experiences make me able to find easy to work with people from different nationalities and cultural background.</p> 
-      </div>
+          <p>Enthusiastic front-end developer enjoying to make plans into reality</p>
+          <p> Highly motivated self-learner, eager to develop and create user-friendly, modern websites.</p>
+          <p>Already have experience from different sphere of businesses. I have multinational and NGO work background, lived abroad in the UK and France.</p>
+          <p>These experiences make me able to find easy to work with people from different nationalities and cultural background.</p>
+      </section>
 
-      <h2 class="skills">Skills</h2> 
-        <div class="skills-container">
+      <section class="skills-container">
+        <h2 class="skills">Skills</h2> 
          <img class= web_development_icons src="./pictures/html5_icon.png" alt="html5_icon">
          <img class= web_development_icons src="./pictures/css3_icon.png" alt="css3_icon">
          <img class= web_development_icons src="./pictures/python_icon.png" alt="javascript_icon">
          <img class= web_development_icons src="./pictures/js_icon.png" alt="javascript_icon">
          <img class= web_development_icons src="./pictures/wordpress_icon.png" alt="javascript_icon">
          <img class= web_development_icons src="./pictures/react.icon.png" alt="javascript_icon">
-       </div>
+      </section>
 
-      <div class="projects">
-        <h2 id="projects">Projects</h2>
-          <p>Check out my work:</p>
-      </div>
-          <ul> 
-            <li class="projects-images-container">
+      <section>
+        <h2 class="projects-text">My projects</h2>
+          <div class="projects">
+            <div class="projects-images-container">
+                <img class=portfolio-work-img src="./pictures/wordpress_project_1.png" alt="lifecoach_site">
+                <a class=work-img-address target="_blank" href="http://kattywebdev.nhely.hu/">Wordpress project - Professional service</a>
+                <img class=portfolio-work-img src="./pictures/Coffeeshop.png" alt="coffeshop_website">
+                <a class=work-img-address target="_blank" href="#">Wordpress project - Coffeeshop</a>
+            </div>
+          <div class="projects-images-container"> 
               <img class=portfolio-work-img src="./pictures/foto_coding.jpg" alt="photo_computer">
-              <a class=work-img-address target="_blank" href="#">Coming soon</a>
-            </li>
-            <li class="projects-images-container"> 
+              <a class=work-img-address target="_blank" href="#">Python project - Coming soon</a>
               <img class=portfolio-work-img src="./pictures/foto.computer.jpg" alt="photo_computer">
-              <a class=work-img-address target="_blank" href="#">Coming soon</a>
-            </li>       
-            <li class="projects-images-container">
-              <img class=portfolio-work-img src="./pictures/foto_online_shopping.jpg" alt="photo_computer">
-              <a class=work-img-address target="_blank" href="#">Coming soon</a>
-            </li>
-            <li class="projects-images-container">
-              <img class=portfolio-work-img src="./pictures/foto_webshop.jpg" alt="photo_computer">
-              <a class=work-img-address target="_blank" href="#">Coming soon</a>
-            </li>
-          </ul>
-
-      <div class="contact-me-container">
-        <h2 id="contacts">Contact me</h2>
-          <p>If you have any request or question, don't hesitate to use this form. </p>
-      </div>
+              <a class=work-img-address target="_blank" href="#">Javascript project - Coming soon</a>
+         </div>
+         </div>
+      </section>
+      
+      <section class="contact-me-container">
+        <h2 id="contact-me-h2">Contact me</h2>
+          <p class="contact-me-p">If you have any request or question, don't hesitate to use this form.</p>
         <form class="form-container" action="https://formspree.io/f/mnqwlrqw" method="POST">    
           <input class="form-item" type="text" name="Név" placeholder="Name">
           <input class="form-item" type="email" name="Email" placeholder="Email">
           <input class="form-item" type="text" name="Subject" placeholder="Subject">
           <textarea class="form-item" name="Message" id="message" cols="40" rows="7" placeholder="Message"></textarea>
-          <input class="form-item" type="submit" value="Send message">
+          <input class="form-item submit-btn" type="submit" value="Send message">
         </form>
-      </main>
+      </section>
+    </main>
 
     <footer class="footer">
-      <ul>
-        <div class="footer-container">
-          <li class="media-icon">
-            <a target="_blank" href="https://github.com/katalin-csordas"><i class="fa-brands fa-github"></i></a>
-          </li>
-          <li class="media-icon">
-            <a target="_blank" href="https://www.linkedin.com/in/katalincsordas/"><i class="fa-brands fa-linkedin"></i></a>
-          </li>
-        </div>
-
-      <div class="media-icons-buttom">
-        <!--<li>Privacy</li>-->
-        <li> &copy; Copyright 2022 Katalin Csordas</li> 
-      </div>
-     </ul>
+      <nav>
+        <ul class="footer-container">
+            <li class="media-icon">
+              <a target="_blank" href="https://github.com/katalin-csordas"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li class="media-icon">
+              <a target="_blank" href="https://www.linkedin.com/in/katalincsordas/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          <li> &copy; Copyright 2022 Katalin Csordas</li> 
+      </ul>
+    </nav>
    </footer>
   </body>
 </html>
