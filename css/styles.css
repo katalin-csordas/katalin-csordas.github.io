@@ -153,11 +153,6 @@ list-style: none;
  padding: 2rem;
 }
 
-.portfolio-work-img:hover {
-    box-shadow: 5px 5px 10px rgb(40, 3, 126);
-    cursor: pointer;    
-}
-
 /* CONTACT ME */
 
 #contact-me-h2 {
