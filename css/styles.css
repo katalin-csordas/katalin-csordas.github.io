@@ -57,7 +57,7 @@ list-style: none;
 
 .header-menu-text-item :hover{   
     background-color: rgb(77, 77, 111);
-    color: rgb(3, 7, 67);
+    color: white;
     box-shadow: 5px 5px 10px rgb(40, 3, 126);
     padding: 0.5rem;
 }
